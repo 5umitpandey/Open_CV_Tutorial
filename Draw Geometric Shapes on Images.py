@@ -4,7 +4,7 @@ import cv2
 #Drawing a black image using np
 #img = np.zeros([900, 900, 3], np.uint8)
 
-#img = cv2.imread('D:\gnimmargorP\Python\Open_CV_Tutorial\coalminestrip.jpeg', 1)
+img = cv2.imread('D:\gnimmargorP\Python\Open_CV_Tutorial\coalminestrip.jpeg', 1)
 
 #Drawing line on image (name_of_img, (x,y), (x1,y1), (b,g,r), thickness)
 img = cv2.line(img, (0,0), (255,255), (0,0,255), 10)
